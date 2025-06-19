@@ -46,9 +46,9 @@ int main()
     
     // Codigo da Carta 02
     
-    printf("Agora iremos inserir as informações correspondentes a Carta 01!! \n");
+    printf("Agora iremos inserir as informações correspondentes a Carta 02!! \n");
 
-    printf("Digite uma letra maiúscula entre A e H (ela irá corresponder à carta 01): \n");
+    printf("Digite uma letra maiúscula entre A e H (ela irá corresponder à carta 02): \n");
     scanf(" %c", &estado2);
 
     printf("Digite o codigo da carta (sendo o código correspondente a letra inserida anteriormente + um numero de 01 a 04): \n");
@@ -69,6 +69,28 @@ int main()
     printf("Digite o numero de pontos turisticos da cidade: \n");
     scanf(" %i", &pontostur2);
 
- return 0;
+    // Carta 01
+    printf("\nAs respectivas cartas são:\n\n");
+    printf("Carta 01: \n");
+    printf("Estado: %c \n", estado1);
+    printf("Codigo: %s \n", codigocarta1);
+    printf("Nome da cidade: %s \n", nomecidade1);
+    printf("Quantidade da populacao: %i \n", populacao1);
+    printf("Area em km2: %f \n", area_km1);
+    printf("Pib da cidade: %f \n", pib1);
+    printf("Quantidade de pontos turisticos: %i \n\n", pontostur1);
+
+    // Carta 02
+
+    printf("Carta 02: \n");
+    printf("Estado: %c \n", estado2);
+    printf("Codigo: %s \n", codigocarta2);
+    printf("Nome da cidade: %s \n", nomecidade2);
+    printf("Quantidade da populacao: %i \n", populacao2);
+    printf("Area em km2: %f \n", area_km2);
+    printf("Pib da cidade: %f \n", pib2);
+    printf("Quantidade de pontos turisticos: %i \n", pontostur2);
+ 
+    return 0;
 
 } 
